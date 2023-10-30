@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    background-color:#FFFB73;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid #0b0b0b;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .completed {
+    text-decoration: line-through;
+    color:#ED7D31;
+  }
+  button {
+    background-color: #1055de;
+    cursor: pointer;
+  }
+  .task-buttons {
+    display: flex;
+  }
